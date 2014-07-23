@@ -1,0 +1,158 @@
+html, body{
+  height: 100%;
+}
+
+body{
+  font-family: 'Merriweather',Georgia,Cambria,'Times New Roman',Times,serif;
+  line-height: 2em;
+  font-size: 1.5em;
+}
+
+.container{
+  max-width: 750px;
+  min-height: 100%;
+}
+
+#icon{
+  width: 100px;
+  display: block;
+  margin: 20px auto;
+}
+
+#mantra{
+  margin-bottom: 20px;
+}
+
+header{
+  background: url(tree.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#top-body{
+  color: black;
+  width: 100%;
+  position: relative;
+  min-height: 100%;
+}
+
+section{
+  display: block;
+}
+
+.center-text{
+  width: 100%;
+  text-align: center;
+}
+
+.b{
+  font-weight: 700;
+}
+
+.r{
+  font-weight: 400;
+}
+
+.i{
+  font-style: italic;
+}
+
+.g{
+  color: #31ba31;
+}
+
+.strike{
+  text-decoration:line-through;
+}
+
+.block{
+  display: block;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 6em;
+}
+
+.sub-title{
+  font-size: 2em;
+}
+
+.level{
+  line-height: 2em;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.outer-level{
+  border-top: 1px solid #adadad;
+}
+
+.glyphicon{
+  margin-right: 10px;
+}
+
+.head{
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  font-size: 3em;
+}
+
+.essential{
+  line-height: 30px;
+}
+
+.btn-success{
+  background: #31ba31;
+}
+
+#feedback{
+  width: 220px;
+  padding-left: 0px;
+  padding-right: 0px;
+  text-align: center;
+  position: relative;
+  margin: 10px auto 30px auto;
+  display: block;
+}
+
+#example{
+  background: #31ba31;
+  color: white;
+}
+
+.example{
+  width: 100%;
+  background: #31ba31;
+  color: white;
+  box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,0.51);
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+/*
+#level0{
+  background: #31ba31;
+  color: white;
+}
+
+#level1{
+  background: white;
+  color: black;
+}
+
+#level2{
+  background: #31ba31;
+  color: white;
+}
+
+#level3{
+  background: white;
+  color: black;
+}
+*/
