@@ -49,11 +49,15 @@ if(isset($_POST['submit'])){
         </section>
         <br />
         <section class="manta-explained b">
-        1) Plant all the ideas
+        Start by stating your end goal: What do you want to accomplish/build/design/figure out?
         <br />
-        2) Weed out the ideas that don't work.
+		1) Put every idea out there. No filter. There is no 'bad idea' - everything goes. 
         <br />
-        3) Grow the core ideas that do work.  
+		2) Now look at each idea from Level 1, and start removing ideas that don't directly solve your original question/problem. 
+        <br />
+		3) Now figure out how to implement each idea. 
+		* Pro tip: To figure out implementation details, try Gardening each one (your end goal is simply the idea that you are trying to implement).  
+        <br />
        </section>
        <br />
        <section class="why">
