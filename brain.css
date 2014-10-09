@@ -6,6 +6,7 @@ body{
   font-family: 'Merriweather',Georgia,Cambria,'Times New Roman',Times,serif;
   line-height: 2em;
   font-size: 1.5em;
+  color: #0B173B;
 }
 
 .container{
@@ -14,9 +15,9 @@ body{
 }
 
 #icon{
-  width: 100px;
+  width: 160px;
   display: block;
-  margin: 20px auto;
+  margin: 10px auto -10px auto;
 }
 
 #mantra{
@@ -24,7 +25,7 @@ body{
 }
 
 header{
-  background: url(tree.png) no-repeat center center fixed; 
+  background: url(tree.png) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -35,7 +36,6 @@ header{
 }
 
 #top-body{
-  color: black;
   width: 100%;
   position: relative;
   min-height: 100%;
@@ -108,7 +108,13 @@ section{
 }
 
 .btn-success{
-  background: #31ba31;
+  background: #71e2a1;
+  border: 0;
+}
+
+.btn-success:hover{
+  background: #71e2a1;
+  opacity: .8;
 }
 
 #feedback{
@@ -121,38 +127,11 @@ section{
   display: block;
 }
 
-#example{
-  background: #31ba31;
-  color: white;
-}
-
 .example{
   width: 100%;
-  background: #31ba31;
+  background: #71e2a1;
   color: white;
-  box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,0.51);
+  box-shadow: inset 0px 0px 20px 0px rgba(0,0,0,0.1);
   padding-top: 10px;
   padding-bottom: 20px;
 }
-
-/*
-#level0{
-  background: #31ba31;
-  color: white;
-}
-
-#level1{
-  background: white;
-  color: black;
-}
-
-#level2{
-  background: #31ba31;
-  color: white;
-}
-
-#level3{
-  background: white;
-  color: black;
-}
-*/
